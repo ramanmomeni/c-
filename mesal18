@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int i,n;
+    cout<<"adad ra vared konid:";
+    cin>>n;
+    for(i=0;i<=n;i++)
+    if(i*i==n) cout<<"moraba kamel ast";
+    /*faqat zamani ke moraba kamel bashad khrooji darad*/
+}
