@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int a;
+    cin>>a;
+    int b;
+    cin>>b;
+    min=b;
+    max=b;
+    int index=2;
+    while (index<=a)
+    {
+        cin>>b;
+        if (max<b) b==max;
+        else if (min>b) b==min;
+        index++;
+    }
+    cout<<max<<"  "<<min;
+}
