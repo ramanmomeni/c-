@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    float width,length;
+    cout<<"tool va arz ra vared konid= ";
+    cin>>width>>length;
+    cout<<"round="<<width*length<<"\n"<<"area="<<(width+length)*2;
+}
