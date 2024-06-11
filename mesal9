@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int num;
+    cout<<"adad ra vared konid: ";
+    cin>>num;
+    if (num>=0) cout<<num;
+    else cout<<-num;
+}
