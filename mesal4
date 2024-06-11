@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    float F;
+    cout<<"farenhait ra vared konid: ";
+    cin>>F;
+    cout<<"santigerad="<<(F-32)/1.8;
+}
