@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int i,num;
+    cout<<"adad ra vared konid: ";
+    cin>>num;
+    if(num==1) cout<<"erorr";
+    for(i=2;i<num;i++)
+    {
+        if(num%i==0)
+        {
+            cout<<"aval nist";
+            break;
+        }
+    }
+    if(num==i)
+    cout<<"aval ast";
+}
