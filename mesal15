@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int number;
+    cout<<"adad ra vared konid: ";
+    cin>>number;
+    int index=1;
+    int counter=0;
+    for (index=1 ;index<=number ; index++ )
+    if (number%index==0) counter++;
+    index++;
+    cout<<"tedad maqsoom elayh: "<<counter;
+}
