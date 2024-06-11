@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+ int main(){
+    int first,second;
+    cin>>first>>second;
+    int power=1;
+    int index=1;
+    while (index<=second)
+    {
+        power=power*first;
+        index=index+1;
+    }
+     cout<<power;
+ }
