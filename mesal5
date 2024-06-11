@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    float first,second;
+    cout<<"do adad ra vared konid: ";
+    cin>>first>>second;
+    cout<<"average="<<(first+second)/2;
+}
