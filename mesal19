@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int num;
+    int sum=0;
+    cout<<"adad ra vared konid:";
+    cin>>num;
+    for(int i=1;i<=num;i++)
+       sum+=i;
+    cout<<"majmoo="<<sum;   
+}
